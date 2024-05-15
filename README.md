@@ -1,4 +1,6 @@
 # practice
+remove time to page  
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
 
 
 A new Flutter project.
