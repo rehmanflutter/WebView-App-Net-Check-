@@ -1,8 +1,17 @@
 # practice
 remove time to page  
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+////////////////////////////////////////////////////////////////
+
+Add Top Of app  main
+extension View on num {
+  Widget get height => SizedBox(height: toDouble());
+  Widget get width => SizedBox(width: toDouble());
+}
 
 
+and use          100.height
+//////////////////////////////////////////////////////////////
 A new Flutter project.
 
 <table>
