@@ -1,6 +1,7 @@
 # practice
 remove time to page  
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+    
 ////////////////////////////////////////////////////////////////
 
 Add Top Of app  main
@@ -11,6 +12,7 @@ extension View on num {
 
 
 and use          100.height
+
 //////////////////////////////////////////////////////////////
 A new Flutter project.
 
