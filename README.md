@@ -29,6 +29,10 @@ Padding(
           child  widget
           
           )
+//////////////////////////////////////////////////////////////
+Find SH kye
+./gradlew signingReport
+          
           
 
 
