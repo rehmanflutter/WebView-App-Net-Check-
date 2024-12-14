@@ -7,7 +7,9 @@ remove time to page
 # Add Top Of app  main
 
 extension View on num {
+
   Widget get height => SizedBox(height: toDouble()); 
+  
   Widget get width => SizedBox(width: toDouble());  
 }
 and use          100.height
@@ -24,11 +26,13 @@ Padding(
           
           )
 //////////////////////////////////////////////////////////////
-# SFind SH kye         
+# Find SH kye         
     ./gradlew signingReport
 
 
 # Ios SetUp
+
+Error: Error running pod install
 
 pod cache clean --all
 
