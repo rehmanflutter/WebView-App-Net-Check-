@@ -4,23 +4,17 @@ remove time to page
     
 ////////////////////////////////////////////////////////////////
 
-Add Top Of app  main
-
+# Add Top Of app  main
 
 extension View on num {
-
-  Widget get height => SizedBox(height: toDouble());
-  
-  Widget get width => SizedBox(width: toDouble());
-  
+  Widget get height => SizedBox(height: toDouble()); 
+  Widget get width => SizedBox(width: toDouble());  
 }
-
-
 and use          100.height
 
 //////////////////////////////////////////////////////////////
 
-Add To croller bottomSheet End textfiled move to keyboard and show top
+# Add To croller bottomSheet End textfiled move to keyboard and show top
 
 Padding(
 
@@ -30,7 +24,7 @@ Padding(
           
           )
 //////////////////////////////////////////////////////////////
-Find SH kye         
+# SFind SH kye         
     ./gradlew signingReport
 
 
