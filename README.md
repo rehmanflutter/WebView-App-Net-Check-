@@ -50,6 +50,8 @@ arch -x86_64 pod install
 
 
 
+# flutter build macos
+This command creates a .app file in the build/macos/Build/Products/Release directory. create apk file for mac desktop 
 
 
           
