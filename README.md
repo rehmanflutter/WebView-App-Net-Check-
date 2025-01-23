@@ -55,6 +55,11 @@ This command creates a .app file in the build/macos/Build/Products/Release direc
 
 # flutter build ios --release
 
+# pod Issus
+pod cache clean --all
+rm Podfile.lock
+pod install
+
 
 # RazorPay
 https://github.com/HEMANT-HEY/RazorPay-integration
