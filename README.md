@@ -57,7 +57,9 @@ This command creates a .app file in the build/macos/Build/Products/Release direc
 
 # pod Issus
 pod cache clean --all
+
 rm Podfile.lock
+
 pod install
 
 
