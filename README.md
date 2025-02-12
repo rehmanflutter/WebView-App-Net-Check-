@@ -1,3 +1,18 @@
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dbb25cb3-e5ff-41a9-88af-a989867a0a3a" width="30%">
+  <img src="https://github.com/user-attachments/assets/f9c132bb-839a-4730-94af-03d193d9b4cb" width="30%">
+  <img src="https://github.com/user-attachments/assets/21c82907-4688-44eb-ab55-25fb6143642d" width="30%">
+</p>
+
+
+
+
+
+
+
+
 # practice
 remove time to page  
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
