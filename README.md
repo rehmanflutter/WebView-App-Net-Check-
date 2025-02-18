@@ -74,6 +74,8 @@ This command creates a .app file in the build/macos/Build/Products/Release direc
 pod cache clean --all
 
 rm Podfile.lock
+pod repo update
+
 
 pod install
 
