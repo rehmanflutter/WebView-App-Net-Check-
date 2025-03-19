@@ -68,6 +68,18 @@ arch -x86_64 pod install
 # flutter build macos
 This command creates a .app file in the build/macos/Build/Products/Release directory. create apk file for mac desktop 
 
+
+
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install ruby
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+ruby -v
+
+
+
+
 # flutter build ios --release
 
 # pod Issus
@@ -79,6 +91,8 @@ pod repo update
 
 
 pod install
+
+
 
 
 # RazorPay
