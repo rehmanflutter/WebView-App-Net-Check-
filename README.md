@@ -71,12 +71,6 @@ This command creates a .app file in the build/macos/Build/Products/Release direc
 
 
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install ruby
-echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
-source ~/.zshrc
-ruby -v
-
 
 
 
