@@ -88,6 +88,14 @@ pod install
 
 
 
+#   Error IOS 
+
+rm -rf ~/.cocoapods/repos/trunk
+pod repo remove trunk
+pod setup
+cd ios
+pod install
+
 
 # RazorPay
 https://github.com/HEMANT-HEY/RazorPay-integration
